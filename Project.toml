@@ -1,0 +1,10 @@
+name = "OIModels"
+uuid = "58ce0fe5-7b51-516a-9aa4-cf4bed9b6269"
+authors = ["Ferreol Soulez ferreol.soulez@univ-lyon1.fr"]
+version = "0.1.0"
+
+[workspace]
+projects = ["test", "docs"]
+
+[compat]
+julia = "1.10"

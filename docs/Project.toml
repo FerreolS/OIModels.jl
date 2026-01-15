@@ -1,0 +1,10 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
+OIModels = "58ce0fe5-7b51-516a-9aa4-cf4bed9b6269"
+
+[compat]
+Documenter = "1"
+
+[sources]
+OIModels = {path = ".."}

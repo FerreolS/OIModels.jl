@@ -1,11 +1,16 @@
 module OIModels
 
-"""
-    hi = hello_world()
-A simple function to return "Hello, World!"
-"""
-function hello_world()
-    return "Hello, World!"
-end
+import UnitfulAngles: mas
 
+using AxisArrays
+using ConcreteStructs
+using Interpolations
+using LinearInterpolations
+using Optimisers
+using Unitful,
+    ChainRulesCore
+
+include("types.jl")
+include("models.jl")
+include("piracy.jl")
 end

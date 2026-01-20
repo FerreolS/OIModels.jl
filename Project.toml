@@ -1,10 +1,32 @@
 name = "OIModels"
 uuid = "58ce0fe5-7b51-516a-9aa4-cf4bed9b6269"
-authors = ["Ferreol Soulez ferreol.soulez@univ-lyon1.fr"]
 version = "0.1.0"
+authors = ["Ferreol Soulez ferreol.soulez@univ-lyon1.fr"]
 
 [workspace]
 projects = ["test", "docs"]
 
+[deps]
+AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+LinearInterpolations = "b20c7882-2490-4592-a606-fbbfe9e745e8"
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAngles = "6fb2a4bd-7999-5318-a3b2-8ad61056cd98"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
 [compat]
+AxisArrays = "0.4.8"
+ChainRulesCore = "1.26.0"
+ConcreteStructs = "0.2.3"
+Interpolations = "0.16.2"
+LinearInterpolations = "0.1.4"
+Optimisers = "0.4.7"
+StaticArrays = "1.9.16"
+Unitful = "1.27.0"
+UnitfulAngles = "0.7.2"
+Zygote = "0.7.10"
 julia = "1.10"
